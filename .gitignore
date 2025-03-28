@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 src/Assets/
-.public/imagesDestination/
+public/imagesDestination/
