@@ -68,6 +68,32 @@
   overflow: hidden;
 }
 .review .secContainer .imageDiv img {
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media screen and (min-width: 480px) {
+  .review .secContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .review .secContainer .textDiv .redText {
+    font-size: var(--normalFontSize);
+  }
+  .review .secContainer .textDiv h3 {
+    font-size: 20px;
+  }
+  .review .secContainer .textDiv p {
+    color: var(--blackColor);
+    font-size: var(--blackColor);
+  }
+  .review .secContainer .textDiv .stars .icon {
+    font-size: var(--h2FontSize);
+  }
+  .review .secContainer .textDiv .clientImages img {
+    height: 50px;
+    width: 50px;
+  }
+  .review .secContainer .imageDiv img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=Reviews.css.map */

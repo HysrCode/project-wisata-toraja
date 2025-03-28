@@ -30,7 +30,7 @@
             .grid{
                 .singlePortofolio{
                     gap: 1rem;
-                    align-items: flex-start;
+                    // align-items: flex-start;
                     .iconDiv{
                         img{
                             height: 50px;
@@ -130,7 +130,7 @@
                 }
 
                 .grid{
-                    grid-template-columns: repeat(2, 1fr);
+                    // grid-template-columns: repeat(2, 1fr);   
                     .singlePortofolio{
                         gap: 1.5rem;
                     }
@@ -183,30 +183,30 @@
     }
 }
 
-@media screen and (min-width: 1240px) {
-    .portfolio{
-        .secContainer{
-            gap: 3rem;
+// @media screen and (min-width: 1240px) {
+//     .portfolio{
+//         .secContainer{
+//             gap: 3rem;
 
-            .leftContent{
-                .secHeading{
-                    h3{
-                        font-size: 2rem;
-                    }
-                    p {
-                        font-size: var(--h3FontSize);
-                    }
-                }
+//             .leftContent{
+//                 .secHeading{
+//                     h3{
+//                         font-size: 2rem;
+//                     }
+//                     p {
+//                         font-size: var(--h3FontSize);
+//                     }
+//                 }
 
-                .grid{
-                    gap: 2.5rem;
-                    margin-top: 3rem;
-                    .singlePortofolio{
+//                 .grid{
+//                     gap: 2.5rem;
+//                     margin-top: 3rem;
+//                     .singlePortofolio{
 
-                    }
-                }
-            }
-        }
-    }
+//                     }
+//                 }
+//             }
+//         }
+//     }
     
-}
+// }

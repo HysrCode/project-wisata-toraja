@@ -9,7 +9,7 @@ const Portfolio = () => {
 
     return (
         <div className="portfolio section container">
-            <div className="secContainer grid">
+            <div className="secContainer">
                 <div className="leftContent">
                     <div className="secHeading">
                         <h3>Kenapa Toraja?</h3>
@@ -63,9 +63,9 @@ const Portfolio = () => {
                         </div>
                     </div>
                 </div>
-                <div className="rightContent">
+                {/* <div className="rightContent">
                     <img src={banner} alt="banner" />
-                </div>
+                </div> */}
             </div>
         </div>
     )

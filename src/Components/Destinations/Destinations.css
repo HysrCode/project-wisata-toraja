@@ -92,6 +92,7 @@
 }
 .destination .destinationContainer .singleDestination:hover .imgDiv img {
   scale: 1.1;
+  cursor: pointer;
 }
 .destination .destinationContainer .singleDestination .descInfo {
   position: absolute;

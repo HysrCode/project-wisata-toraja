@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 :root {
@@ -25,6 +25,11 @@
   --smallFontSize: 0.813rem;
   --smallestFontSize: 0.75rem;
   --borderRadius: 3rem;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
 body {
@@ -79,7 +84,7 @@ img, video {
   -o-border-radius: var(--borderRadius);
   padding: 0.8rem 1rem;
   color: var(--whiteColor);
-  background: var(--primaryColor);
+  background: var(--primaryColor) !important;
 }
 .btn:hover {
   transition: 0.3s ease;

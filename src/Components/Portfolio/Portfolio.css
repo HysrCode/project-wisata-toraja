@@ -25,7 +25,6 @@
 }
 .portfolio .secContainer .leftContent .grid .singlePortofolio {
   gap: 1rem;
-  align-items: flex-start;
 }
 .portfolio .secContainer .leftContent .grid .singlePortofolio .iconDiv img {
   height: 50px;
@@ -87,7 +86,6 @@
     display: none;
   }
   .portfolio .secContainer .leftContent .grid {
-    grid-template-columns: repeat(2, 1fr);
     align-items: flex-start;
   }
   .portfolio .secContainer .leftContent .grid .singlePortofolio {
@@ -118,20 +116,5 @@
   }
   .portfolio .secContainer .rightContent img {
     max-width: 100%;
-  }
-}
-@media screen and (min-width: 1240px) {
-  .portfolio .secContainer {
-    gap: 3rem;
-  }
-  .portfolio .secContainer .leftContent .secHeading h3 {
-    font-size: 2rem;
-  }
-  .portfolio .secContainer .leftContent .secHeading p {
-    font-size: var(--h3FontSize);
-  }
-  .portfolio .secContainer .leftContent .grid {
-    gap: 2.5rem;
-    margin-top: 3rem;
   }
 }/*# sourceMappingURL=Portfolio.css.map */

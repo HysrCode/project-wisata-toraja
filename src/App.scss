@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
 }
 
 // All Project Colors
@@ -29,6 +29,11 @@
     --smallestFontSize: 0.75rem; 
     --borderRadius: 3rem;
 }
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+  }
 
 body{
     background: var(--bgColor);
@@ -83,7 +88,7 @@ img, video{
     -o-border-radius: var(--borderRadius);
     padding: 0.8rem 1rem;
     color: var(--whiteColor);
-    background: var(--primaryColor);
+    background: var(--primaryColor) !important;
 
     &:hover{
         transition: .3s ease;

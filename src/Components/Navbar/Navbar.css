@@ -36,6 +36,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .navBar .logoDiv span {
   color: var(--blackColor);
@@ -109,7 +110,8 @@
   .navBar .logoDiv span {
     font-size: var(--h2FontSize);
   }
-  .navBar .closeIcon, .navBar .menuIcon {
+  .navBar .closeIcon,
+  .navBar .menuIcon {
     display: none;
   }
   .navBar .menu ul {
